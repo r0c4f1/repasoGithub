@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Cumanacode: Expertos en desarrollo de software personalizado. Creamos aplicaciones web, móviles (iOS/Android), programas de escritorio y sistemas empresariales. Tecnología escalable, diseño UX/UI y soporte técnico. ¡Solicita tu cotización hoy!"
+      content="Cumanacode: Expertos en desarrollo de software personalizado. Creamos aplicaciones web, móviles (Android), programas de escritorio y sistemas empresariales. Tecnología escalable, diseño UX/UI y soporte técnico. ¡Solicita tu cotización hoy!"
     />
 
     <!-- Palabras Clave (Keywords) -->
     <meta
       name="keywords"
-      content="cumanacode, cumana code, Cumanacode, CumanaCode, desarrollo de software, aplicaciones de escritorio, aplicaciones web, apps móviles, Android, software desktop, Windows, Linux, sistemas informáticos, programación a medida, diseño UX/UI, desarrollo frontend, backend, API REST, bases de datos, flutter, react native, soporte técnico"
+      content="SEO, seo, cumanacode, cumana code, Cumanacode, CumanaCode, desarrollo de software, aplicaciones de escritorio, aplicaciones web, apps móviles, Android, software desktop, Windows, Linux, sistemas informáticos, programación a medida, diseño UX/UI, desarrollo frontend, backend, API REST, bases de datos, flutter, react native, soporte técnico"
     />
 
     <!-- Open Graph / Redes Sociales (opcional pero recomendado) -->
@@ -28,12 +28,17 @@
     <!-- Reemplaza con tu URL -->
     <meta
       property="og:image"
-      content="https://www.cumanacode.com/assets/images/icon.png"
+      content="https://www.cumanacode.com/assets/images/logo_cumanacode.png"
     />
     <!-- Ruta de tu imagen destacada -->
-    <title>CumanaCode - Soluciones Digitales</title>
-    <link rel="icon" href="./assets/images/icon.png" type="image/x-png" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>cumanacode - Soluciones Digitales</title>
+    <link rel="icon" href="./assets/images/icon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <script src="./assets/js/tailwind.js"></script>
+    <!-- <link rel="stylesheet" href="./assets/css/output.css" /> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -47,13 +52,13 @@
               // Nueva paleta vibrante
               "teal-custom": "#84BFC3",
               "cream-custom": "#FFF5D6",
-              "orange-custom": "#FFB870",
+              "turquoise-custom": "#106554",
               "coral-custom": "#D96153",
               "navy-custom": "#000511",
               // Variaciones para modo oscuro
               "teal-dark": "#6A9CA0",
               "cream-dark": "#E6DCC3",
-              "orange-dark": "#E6A55D",
+              "turquoise-dark": "#168A73",
               "coral-dark": "#C65540",
               "navy-dark": "#1A1B2E",
             },
@@ -79,9 +84,9 @@
           <!-- Logo -->
           <div class="flex-shrink-0">
             <h1
-              class="text-2xl font-bold text-coral-custom dark:text-orange-dark"
+              class="text-2xl font-bold text-turquoise-custom dark:text-turquoise-dark"
             >
-              CumanaCode
+              cumanacode
             </h1>
           </div>
 
@@ -90,34 +95,34 @@
             <div class="ml-10 flex items-center space-x-8">
               <a
                 href="#inicio"
-                class="text-coral-custom dark:text-orange-dark font-medium"
+                class="text-turquoise-custom dark:text-turquoise-dark font-medium"
                 >Inicio</a
               >
               <a
                 href="#servicios"
-                class="text-gray-700 dark:text-gray-300 hover:text-coral-custom dark:hover:text-orange-dark transition-colors"
+                class="text-gray-700 dark:text-gray-300 hover:text-turquoise-custom dark:hover:text-turquoise-dark transition-colors"
                 >Servicios</a
               >
               <a
                 href="#quienes-somos"
-                class="text-gray-700 dark:text-gray-300 hover:text-coral-custom dark:hover:text-orange-dark transition-colors"
+                class="text-gray-700 dark:text-gray-300 hover:text-turquoise-custom dark:hover:text-turquoise-dark transition-colors"
                 >Quiénes Somos</a
               >
               <a
                 href="#clientes"
-                class="text-gray-700 dark:text-gray-300 hover:text-coral-custom dark:hover:text-orange-dark transition-colors"
+                class="text-gray-700 dark:text-gray-300 hover:text-turquoise-custom dark:hover:text-turquoise-dark transition-colors"
                 >Clientes</a
               >
               <a
                 href="#contacto"
-                class="bg-teal-custom dark:bg-teal-dark text-white px-4 py-2 rounded-lg hover:bg-opacity-80 transition-colors"
+                class="bg-turquoise-custom dark:bg-turquoise-dark text-white px-4 py-2 rounded-lg hover:bg-opacity-80 transition-colors"
                 >Contacto</a
               >
 
               <!-- Dark Mode Toggle -->
               <button
                 id="theme-toggle"
-                class="p-2 rounded-lg bg-orange-custom dark:bg-gray-800 text-white dark:text-gray-300 hover:bg-opacity-80 transition-colors"
+                class="p-2 border-2 border-teal-custom dark:border-teal-dark rounded-lg text-gray-500 dark:text-gray-400 hover:bg-teal-custom hover:bg-opacity-10 dark:hover:bg-teal-dark dark:hover:bg-opacity-10 transition-colors"
               >
                 <!-- Sun icon (for dark mode) -->
                 <svg
@@ -152,7 +157,7 @@
             <!-- Dark Mode Toggle (Mobile) -->
             <button
               id="theme-toggle-mobile"
-              class="p-2 rounded-lg bg-orange-custom dark:bg-gray-800 text-white dark:text-gray-300 hover:bg-opacity-80 transition-colors"
+              class="p-2 rounded-lg bg-turquoise-custom dark:bg-gray-800 text-white dark:text-gray-300 hover:bg-opacity-80 transition-colors"
             >
               <!-- Sun icon (for dark mode) -->
               <svg
@@ -181,7 +186,7 @@
             </button>
 
             <button
-              class="text-gray-700 dark:text-gray-300 hover:text-coral-custom dark:hover:text-orange-dark"
+              class="text-gray-700 dark:text-gray-300 hover:text-turquoise-custom dark:hover:text-turquoise-dark"
             >
               <svg
                 class="h-6 w-6"
@@ -213,7 +218,7 @@
             class="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6"
           >
             Soluciones Digitales
-            <span class="text-coral-custom dark:text-orange-dark"
+            <span class="text-turquoise-custom dark:text-turquoise-dark"
               >Modernas</span
             >
           </h2>
@@ -221,17 +226,16 @@
             class="text-xl text-gray-800 dark:text-gray-300 mb-8 max-w-3xl mx-auto"
           >
             Transformamos tus ideas en realidad digital. Desarrollamos
-            aplicaciones web, móviles y de escritorio con tecnología de
-            vanguardia.
+            aplicaciones web, móviles y de escritorio.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <button
-              class="bg-coral-custom dark:bg-coral-dark text-white px-8 py-3 rounded-lg text-lg font-medium hover:bg-opacity-80 transition-colors shadow-lg"
+              class="bg-turquoise-custom dark:bg-turquoise-dark text-white px-8 py-3 rounded-lg text-lg font-medium hover:bg-opacity-80 transition-colors shadow-lg"
             >
               Comenzar Proyecto
             </button>
             <button
-              class="border-2 border-teal-custom dark:border-teal-dark text-teal-custom dark:text-teal-dark px-8 py-3 rounded-lg text-lg font-medium hover:bg-teal-custom hover:bg-opacity-10 dark:hover:bg-teal-dark dark:hover:bg-opacity-10 transition-colors"
+              class="border-2 border-turquoise-custom dark:border-teal-dark text-turquoise-custom dark:text-teal-dark px-8 py-3 rounded-lg text-lg font-medium hover:bg-teal-custom hover:bg-opacity-10 dark:hover:bg-teal-dark dark:hover:bg-opacity-10 transition-colors"
             >
               Ver Portafolio
             </button>
@@ -260,10 +264,10 @@
             class="bg-teal-custom bg-opacity-10 dark:bg-gray-800 p-8 rounded-xl hover:shadow-lg transition-all duration-300 border border-teal-custom dark:border-gray-700"
           >
             <div
-              class="w-12 h-12 bg-teal-custom bg-opacity-20 dark:bg-teal-dark dark:bg-opacity-20 rounded-lg flex items-center justify-center mb-6"
+              class="w-12 h-12 bg-turquoise-custom bg-opacity-20 dark:bg-turquoise-dark dark:bg-opacity-20 rounded-lg flex items-center justify-center mb-6"
             >
               <svg
-                class="w-6 h-6 text-teal-custom dark:text-teal-dark"
+                class="w-6 h-6 text-turquoise-custom dark:text-turquoise-dark"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -282,25 +286,25 @@
               Desarrollo Web
             </h4>
             <p class="text-gray-600 dark:text-gray-300 mb-6">
-              Sitios web modernos, responsivos y optimizados para SEO. Desde
+              Sitios web modernos, adaptables y optimizados para SEO. Desde
               landing pages hasta aplicaciones web complejas.
             </p>
             <a
               href="#"
-              class="text-teal-custom dark:text-teal-dark font-medium hover:text-opacity-80"
+              class="text-turquoise-custom dark:text-turqoise-dark font-medium hover:text-opacity-80"
               >Saber más →</a
             >
           </div>
 
           <!-- Mobile Apps -->
           <div
-            class="bg-orange-custom bg-opacity-10 dark:bg-gray-800 p-8 rounded-xl hover:shadow-lg transition-all duration-300 border border-orange-custom dark:border-gray-700"
+            class="bg-turquoise-custom bg-opacity-10 dark:bg-gray-800 p-8 rounded-xl hover:shadow-lg transition-all duration-300 border border-turquoise-custom dark:border-gray-700"
           >
             <div
-              class="w-12 h-12 bg-orange-custom bg-opacity-20 dark:bg-orange-dark dark:bg-opacity-20 rounded-lg flex items-center justify-center mb-6"
+              class="w-12 h-12 bg-turquoise-custom bg-opacity-20 dark:bg-turquoise-dark dark:bg-opacity-20 rounded-lg flex items-center justify-center mb-6"
             >
               <svg
-                class="w-6 h-6 text-orange-custom dark:text-orange-dark"
+                class="w-6 h-6 text-turquoise-custom dark:text-turquoise-dark"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -324,20 +328,20 @@
             </p>
             <a
               href="#"
-              class="text-orange-custom dark:text-orange-dark font-medium hover:text-opacity-80"
+              class="text-turquoise-custom dark:text-turquoise-dark font-medium hover:text-opacity-80"
               >Saber más →</a
             >
           </div>
 
           <!-- Desktop Apps -->
           <div
-            class="bg-coral-custom bg-opacity-10 dark:bg-gray-800 p-8 rounded-xl hover:shadow-lg transition-all duration-300 border border-coral-custom dark:border-gray-700"
+            class="bg-turquoise-custom bg-opacity-10 dark:bg-gray-800 p-8 rounded-xl hover:shadow-lg transition-all duration-300 border border-turquoise-custom dark:border-gray-700"
           >
             <div
-              class="w-12 h-12 bg-coral-custom bg-opacity-20 dark:bg-coral-dark dark:bg-opacity-20 rounded-lg flex items-center justify-center mb-6"
+              class="w-12 h-12 bg-turquoise-custom bg-opacity-20 dark:bg-turquoise-dark dark:bg-opacity-20 rounded-lg flex items-center justify-center mb-6"
             >
               <svg
-                class="w-6 h-6 text-coral-custom dark:text-coral-dark"
+                class="w-6 h-6 text-turquoise-custom dark:text-turquoise-dark"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -361,7 +365,7 @@
             </p>
             <a
               href="#"
-              class="text-coral-custom dark:text-coral-dark font-medium hover:text-opacity-80"
+              class="text-turquoise-custom dark:text-turquoise-dark font-medium hover:text-opacity-80"
               >Saber más →</a
             >
           </div>
@@ -371,7 +375,7 @@
 
     <!-- CTA Section -->
     <section
-      class="bg-gradient-to-r from-coral-custom to-orange-custom dark:from-coral-dark dark:to-orange-dark py-16"
+      class="bg-gradient-to-r from-turquoise-custom to-turquoise-custom dark:from-turquoise-dark dark:to-turquoise-dark py-16"
     >
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h3 class="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -383,7 +387,7 @@
           Conversemos sobre tu idea y cómo podemos ayudarte a hacerla realidad
         </p>
         <button
-          class="bg-white text-coral-custom px-8 py-3 rounded-lg text-lg font-medium hover:bg-cream-custom hover:text-navy-custom transition-colors shadow-lg"
+          class="bg-white text-turquoise-custom px-8 py-3 rounded-lg text-lg font-medium hover:bg-cream-custom hover:text-navy-custom transition-colors shadow-lg"
         >
           Contactar Ahora
         </button>
@@ -393,19 +397,19 @@
     <!-- Footer -->
     <footer class="bg-navy-custom dark:bg-black text-white py-12">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid md:grid-cols-4 gap-8">
+        <div class="grid md:grid-cols-5 gap-8">
           <div class="col-span-2">
             <h4
-              class="text-2xl font-bold text-orange-custom dark:text-orange-dark mb-4"
+              class="text-2xl font-bold text-turquoise-custom dark:text-turquoise-dark mb-4"
             >
-              CumanaCode
+              cumanacode
             </h4>
             <p class="text-gray-300 dark:text-gray-400 mb-4">
               Creamos soluciones digitales que impulsan tu negocio hacia el
               futuro.
             </p>
             <img
-              src="./assets/images/footer_image.png"
+              src="/assets/images/image_footer.webp"
               alt="footer_image"
               class="w-60 h-60 mb-4"
             />
@@ -416,28 +420,28 @@
               <li>
                 <a
                   href="#servicios"
-                  class="hover:text-orange-custom dark:hover:text-orange-dark transition-colors"
+                  class="hover:text-turquoise-custom dark:hover:text-turquoise-dark transition-colors"
                   >Servicios</a
                 >
               </li>
               <li>
                 <a
                   href="#quienes-somos"
-                  class="hover:text-orange-custom dark:hover:text-orange-dark transition-colors"
+                  class="hover:text-turquoise-custom dark:hover:text-turquoise-dark transition-colors"
                   >Quiénes Somos</a
                 >
               </li>
               <li>
                 <a
                   href="#clientes"
-                  class="hover:text-orange-custom dark:hover:text-orange-dark transition-colors"
+                  class="hover:text-turquoise-custom dark:hover:text-turquoise-dark transition-colors"
                   >Clientes</a
                 >
               </li>
               <li>
                 <a
                   href="#contacto"
-                  class="hover:text-orange-custom dark:hover:text-orange-dark transition-colors"
+                  class="hover:text-turquoise-custom dark:hover:text-turquoise-dark transition-colors"
                   >Contacto</a
                 >
               </li>
@@ -446,15 +450,41 @@
           <div>
             <h5 class="font-semibold text-white mb-4">Contacto</h5>
             <ul class="space-y-2 text-gray-300 dark:text-gray-400">
-              <li>info@CumanaCode.com</li>
-              <li>+1 (555) 123-4567</li>
+              <li>cumanacode@gmail.com</li>
+              <!-- <li>+1 (555) 123-4567</li> -->
+              <li
+                class="hover:text-turquoise-custom dark:hover:text-turquoise-dark transition-colors"
+              >
+                <a href="https://instagram.com/cumanacode" target="_blank"
+                  >Instagram <i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li
+                class="hover:text-turquoise-custom dark:hover:text-turquoise-dark transition-colors"
+              >
+                <a href="https://instagram.com/cumanacode" target="_blank"
+                  >WhatsApp <i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="font-semibold text-white mb-4" id="clientes">
+              Clientes
+            </h5>
+            <ul class="space-y-2 text-gray-300 dark:text-gray-400">
+              <li
+                class="hover:text-turquoise-custom dark:hover:text-turquoise-dark transition-colors"
+              >
+                <a href="https://sucreglobe.com" target="_blank">Sucre globe</a>
+              </li>
             </ul>
           </div>
         </div>
         <div
           class="border-t border-gray-700 dark:border-gray-800 mt-8 pt-8 text-center text-gray-400 dark:text-gray-500"
         >
-          <p>&copy; 2024 CumanaCode. Todos los derechos reservados.</p>
+          <p>&copy; 2025 cumanacode. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

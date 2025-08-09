@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@plugin "@midudev/tailwind-animations";
+
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/Inter.woff2") format("woff2");
+  font-weight: 100 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-teal-custom: #84bfc3;
+  --color-cream-custom: #fff5d6;
+  --color-turquoise-custom: #106554;
+  --color-coral-custom: #d96153;
+  --color-navy-custom: #000511;
+  --color-teal-dark: #6a9ca0;
+  --color-cream-dark: #e6dcc3;
+  --color-turquoise-dark: #168a73;
+  --color-coral-dark: #c65540;
+  --color-navy-dark: #1a1b2e;
+
+  --font-inter: "Inter", sans-serif;
+}
